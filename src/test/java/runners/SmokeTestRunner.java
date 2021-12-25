@@ -1,0 +1,14 @@
+package runners;
+
+import io.cucumber.testng.CucumberOptions;
+
+@CucumberOptions(
+		
+		features= "Features",
+		glue="steps"
+		
+		)
+
+public class SmokeTestRunner {
+
+}
